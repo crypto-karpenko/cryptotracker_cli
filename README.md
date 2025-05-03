@@ -18,12 +18,12 @@ CryptoTracker CLI is a simple command-line tool that allows you to track cryptoc
 ## 📦 Project Structure
 
 crypto_tracker_cli/
-├── crypto_tracker.py     
+├── crypto_tracker.py # Main script
 ├── data/
-│   └── coins.json        
-└── README.md             
+│   └── coins.json # Stored watchlist
+└── README.md
 
-
+            
 ## 🚀 Getting Started
 
 1. **Clone the repository**
