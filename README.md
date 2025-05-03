@@ -23,7 +23,7 @@ crypto_tracker_cli/
 
 ├── data/
 
-│   └── coins.json # Stored watchlist
+│       └── coins.json # Stored watchlist
 
 └── README.md
 
