@@ -18,31 +18,29 @@ CryptoTracker CLI is a simple command-line tool that allows you to track cryptoc
 ## 📦 Project Structure
 
 crypto_tracker_cli/
-
-├── crypto_tracker.py # Main script
-
-├── data/
-
-│       └── coins.json # Stored watchlist
-
-└── README.md
+ - crypto_tracker.py # Main script
+ - data/
+    - coins.json # Stored watchlist
+ - README.md
 
             
 ## 🚀 Getting Started
 
 1. **Clone the repository**
 
-```bash
+```
 git clone https://github.com/crypto-karpenko/cryptotracker_cli.git
 cd crypto_tracker_cli
 ```
+
 2. (Optional) Create a virtual environment
   ``` 
   python3 -m venv venv
 
   source venv/bin/activate  # On Windows: venv\Scripts\activate
   ```
-3. Install dependencies'
+
+3. Install dependencies
   ```
   pip install requests
   ```
@@ -51,3 +49,6 @@ cd crypto_tracker_cli
   ```
   python crypto_tracker.py
   ```
+
+📫 Contact
+Created by @crypto-karpenko https://github.com/crypto-karpenko/
