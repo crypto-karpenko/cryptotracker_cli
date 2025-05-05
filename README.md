@@ -2,6 +2,8 @@
 
 CryptoTracker CLI is a simple command-line tool that allows you to track cryptocurrency prices in real time using data from the CoinGecko API.
 
+---
+
 ## 💡 Features
 
 - View current USD prices for selected cryptocurrencies
@@ -9,11 +11,15 @@ CryptoTracker CLI is a simple command-line tool that allows you to track cryptoc
 - Remove coins from your list
 - View your current watchlist
 
+---
+
 ## 🛠 Tech Stack
 
 - Python 3
 - Requests library
 - CoinGecko API
+
+---
 
 ## 📦 Project Structure
 
@@ -23,32 +29,37 @@ crypto_tracker_cli/
     - coins.json # Stored watchlist
  - README.md
 
-            
+---
+
 ## 🚀 Getting Started
 
-1. **Clone the repository**
+### 1. **Clone the repository**
 
-```
-git clone https://github.com/crypto-karpenko/cryptotracker_cli.git
-cd crypto_tracker_cli
-```
+   ```
+   git clone https://github.com/crypto-karpenko/cryptotracker_cli.git
+   cd crypto_tracker_cli
+   ```
 
-2. (Optional) Create a virtual environment
-  ``` 
-  python3 -m venv venv
+### 2. (Optional) Create a virtual environment
+   
+   ``` 
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
-  ```
+### 3. Install dependencies
 
-3. Install dependencies
-  ```
-  pip install requests
-  ```
+   ```
+   pip install requests
+   ```
 
 4. Run the app
-  ```
-  python crypto_tracker.py
-  ```
+   
+   ```
+   python crypto_tracker.py
+   ```
+---
 
 📫 Contact
-Created by @crypto-karpenko https://github.com/crypto-karpenko/
+
+Created by [@crypto-karpenko](https://github.com/crypto-karpenko/)
