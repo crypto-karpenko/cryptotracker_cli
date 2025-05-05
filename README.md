@@ -54,7 +54,7 @@ crypto_tracker_cli/
    ```
 
 4. Run the app
-   
+
    ```
    python crypto_tracker.py
    ```
