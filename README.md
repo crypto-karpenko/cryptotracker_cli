@@ -53,7 +53,7 @@ crypto_tracker_cli/
    pip install requests
    ```
 
-4. Run the app
+### 4. Run the app
 
    ```
    python crypto_tracker.py
